@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40BD2E71C07149F00656542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD2E61C07149F00656542 /* AppDelegate.swift */; };
+		E40BD2E91C07149F00656542 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E40BD2E81C07149F00656542 /* GameScene.sks */; };
+		E40BD2EB1C07149F00656542 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD2EA1C07149F00656542 /* GameScene.swift */; };
+		E40BD2ED1C07149F00656542 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD2EC1C07149F00656542 /* GameViewController.swift */; };
+		E40BD2F01C07149F00656542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40BD2EE1C07149F00656542 /* Main.storyboard */; };
+		E40BD2F21C07149F00656542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40BD2F11C07149F00656542 /* Assets.xcassets */; };
+		E40BD2F51C07149F00656542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40BD2F31C07149F00656542 /* LaunchScreen.storyboard */; };
+		E40BD3001C07149F00656542 /* SpriteKit_iAd_BannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD2FF1C07149F00656542 /* SpriteKit_iAd_BannerTests.swift */; };
+		E40BD30B1C07149F00656542 /* SpriteKit_iAd_BannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD30A1C07149F00656542 /* SpriteKit_iAd_BannerUITests.swift */; };
+		E40BD3191C0714A800656542 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40BD3181C0714A800656542 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E40BD2FC1C07149F00656542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40BD2DB1C07149F00656542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E40BD2E21C07149F00656542;
+			remoteInfo = "SpriteKit-iAd-Banner";
+		};
+		E40BD3071C07149F00656542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40BD2DB1C07149F00656542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E40BD2E21C07149F00656542;
+			remoteInfo = "SpriteKit-iAd-Banner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E40BD2E31C07149F00656542 /* SpriteKit-iAd-Banner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit-iAd-Banner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40BD2E61C07149F00656542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E40BD2E81C07149F00656542 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E40BD2EA1C07149F00656542 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E40BD2EC1C07149F00656542 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E40BD2EF1C07149F00656542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E40BD2F11C07149F00656542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E40BD2F41C07149F00656542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E40BD2F61C07149F00656542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40BD2FB1C07149F00656542 /* SpriteKit-iAd-BannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpriteKit-iAd-BannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40BD2FF1C07149F00656542 /* SpriteKit_iAd_BannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_iAd_BannerTests.swift; sourceTree = "<group>"; };
+		E40BD3011C07149F00656542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40BD3061C07149F00656542 /* SpriteKit-iAd-BannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpriteKit-iAd-BannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40BD30A1C07149F00656542 /* SpriteKit_iAd_BannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_iAd_BannerUITests.swift; sourceTree = "<group>"; };
+		E40BD30C1C07149F00656542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40BD3181C0714A800656542 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40BD2E01C07149F00656542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BD3191C0714A800656542 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BD2F81C07149F00656542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BD3031C07149F00656542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40BD2DA1C07149F00656542 = {
+			isa = PBXGroup;
+			children = (
+				E40BD3181C0714A800656542 /* iAd.framework */,
+				E40BD2E51C07149F00656542 /* SpriteKit-iAd-Banner */,
+				E40BD2FE1C07149F00656542 /* SpriteKit-iAd-BannerTests */,
+				E40BD3091C07149F00656542 /* SpriteKit-iAd-BannerUITests */,
+				E40BD2E41C07149F00656542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E40BD2E41C07149F00656542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD2E31C07149F00656542 /* SpriteKit-iAd-Banner.app */,
+				E40BD2FB1C07149F00656542 /* SpriteKit-iAd-BannerTests.xctest */,
+				E40BD3061C07149F00656542 /* SpriteKit-iAd-BannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40BD2E51C07149F00656542 /* SpriteKit-iAd-Banner */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD2E61C07149F00656542 /* AppDelegate.swift */,
+				E40BD2E81C07149F00656542 /* GameScene.sks */,
+				E40BD2EA1C07149F00656542 /* GameScene.swift */,
+				E40BD2EC1C07149F00656542 /* GameViewController.swift */,
+				E40BD2EE1C07149F00656542 /* Main.storyboard */,
+				E40BD2F11C07149F00656542 /* Assets.xcassets */,
+				E40BD2F31C07149F00656542 /* LaunchScreen.storyboard */,
+				E40BD2F61C07149F00656542 /* Info.plist */,
+			);
+			path = "SpriteKit-iAd-Banner";
+			sourceTree = "<group>";
+		};
+		E40BD2FE1C07149F00656542 /* SpriteKit-iAd-BannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD2FF1C07149F00656542 /* SpriteKit_iAd_BannerTests.swift */,
+				E40BD3011C07149F00656542 /* Info.plist */,
+			);
+			path = "SpriteKit-iAd-BannerTests";
+			sourceTree = "<group>";
+		};
+		E40BD3091C07149F00656542 /* SpriteKit-iAd-BannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD30A1C07149F00656542 /* SpriteKit_iAd_BannerUITests.swift */,
+				E40BD30C1C07149F00656542 /* Info.plist */,
+			);
+			path = "SpriteKit-iAd-BannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40BD2E21C07149F00656542 /* SpriteKit-iAd-Banner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40BD30F1C07149F00656542 /* Build configuration list for PBXNativeTarget "SpriteKit-iAd-Banner" */;
+			buildPhases = (
+				E40BD2DF1C07149F00656542 /* Sources */,
+				E40BD2E01C07149F00656542 /* Frameworks */,
+				E40BD2E11C07149F00656542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpriteKit-iAd-Banner";
+			productName = "SpriteKit-iAd-Banner";
+			productReference = E40BD2E31C07149F00656542 /* SpriteKit-iAd-Banner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E40BD2FA1C07149F00656542 /* SpriteKit-iAd-BannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40BD3121C07149F00656542 /* Build configuration list for PBXNativeTarget "SpriteKit-iAd-BannerTests" */;
+			buildPhases = (
+				E40BD2F71C07149F00656542 /* Sources */,
+				E40BD2F81C07149F00656542 /* Frameworks */,
+				E40BD2F91C07149F00656542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40BD2FD1C07149F00656542 /* PBXTargetDependency */,
+			);
+			name = "SpriteKit-iAd-BannerTests";
+			productName = "SpriteKit-iAd-BannerTests";
+			productReference = E40BD2FB1C07149F00656542 /* SpriteKit-iAd-BannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E40BD3051C07149F00656542 /* SpriteKit-iAd-BannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40BD3151C07149F00656542 /* Build configuration list for PBXNativeTarget "SpriteKit-iAd-BannerUITests" */;
+			buildPhases = (
+				E40BD3021C07149F00656542 /* Sources */,
+				E40BD3031C07149F00656542 /* Frameworks */,
+				E40BD3041C07149F00656542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40BD3081C07149F00656542 /* PBXTargetDependency */,
+			);
+			name = "SpriteKit-iAd-BannerUITests";
+			productName = "SpriteKit-iAd-BannerUITests";
+			productReference = E40BD3061C07149F00656542 /* SpriteKit-iAd-BannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40BD2DB1C07149F00656542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = mstcode;
+				TargetAttributes = {
+					E40BD2E21C07149F00656542 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E40BD2FA1C07149F00656542 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E40BD2E21C07149F00656542;
+					};
+					E40BD3051C07149F00656542 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E40BD2E21C07149F00656542;
+					};
+				};
+			};
+			buildConfigurationList = E40BD2DE1C07149F00656542 /* Build configuration list for PBXProject "SpriteKit-iAd-Banner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40BD2DA1C07149F00656542;
+			productRefGroup = E40BD2E41C07149F00656542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40BD2E21C07149F00656542 /* SpriteKit-iAd-Banner */,
+				E40BD2FA1C07149F00656542 /* SpriteKit-iAd-BannerTests */,
+				E40BD3051C07149F00656542 /* SpriteKit-iAd-BannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40BD2E11C07149F00656542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BD2E91C07149F00656542 /* GameScene.sks in Resources */,
+				E40BD2F51C07149F00656542 /* LaunchScreen.storyboard in Resources */,
+				E40BD2F21C07149F00656542 /* Assets.xcassets in Resources */,
+				E40BD2F01C07149F00656542 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BD2F91C07149F00656542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BD3041C07149F00656542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40BD2DF1C07149F00656542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BD2EB1C07149F00656542 /* GameScene.swift in Sources */,
+				E40BD2ED1C07149F00656542 /* GameViewController.swift in Sources */,
+				E40BD2E71C07149F00656542 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BD2F71C07149F00656542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BD3001C07149F00656542 /* SpriteKit_iAd_BannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BD3021C07149F00656542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BD30B1C07149F00656542 /* SpriteKit_iAd_BannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E40BD2FD1C07149F00656542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E40BD2E21C07149F00656542 /* SpriteKit-iAd-Banner */;
+			targetProxy = E40BD2FC1C07149F00656542 /* PBXContainerItemProxy */;
+		};
+		E40BD3081C07149F00656542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E40BD2E21C07149F00656542 /* SpriteKit-iAd-Banner */;
+			targetProxy = E40BD3071C07149F00656542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E40BD2EE1C07149F00656542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40BD2EF1C07149F00656542 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E40BD2F31C07149F00656542 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40BD2F41C07149F00656542 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40BD30D1C07149F00656542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E40BD30E1C07149F00656542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40BD3101C07149F00656542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SpriteKit-iAd-Banner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstcode.SpriteKit-iAd-Banner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E40BD3111C07149F00656542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SpriteKit-iAd-Banner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstcode.SpriteKit-iAd-Banner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E40BD3131C07149F00656542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "SpriteKit-iAd-BannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstcode.SpriteKit-iAd-BannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKit-iAd-Banner.app/SpriteKit-iAd-Banner";
+			};
+			name = Debug;
+		};
+		E40BD3141C07149F00656542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SpriteKit-iAd-BannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstcode.SpriteKit-iAd-BannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKit-iAd-Banner.app/SpriteKit-iAd-Banner";
+			};
+			name = Release;
+		};
+		E40BD3161C07149F00656542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "SpriteKit-iAd-BannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstcode.SpriteKit-iAd-BannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SpriteKit-iAd-Banner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E40BD3171C07149F00656542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SpriteKit-iAd-BannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mstcode.SpriteKit-iAd-BannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SpriteKit-iAd-Banner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40BD2DE1C07149F00656542 /* Build configuration list for PBXProject "SpriteKit-iAd-Banner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40BD30D1C07149F00656542 /* Debug */,
+				E40BD30E1C07149F00656542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40BD30F1C07149F00656542 /* Build configuration list for PBXNativeTarget "SpriteKit-iAd-Banner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40BD3101C07149F00656542 /* Debug */,
+				E40BD3111C07149F00656542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E40BD3121C07149F00656542 /* Build configuration list for PBXNativeTarget "SpriteKit-iAd-BannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40BD3131C07149F00656542 /* Debug */,
+				E40BD3141C07149F00656542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E40BD3151C07149F00656542 /* Build configuration list for PBXNativeTarget "SpriteKit-iAd-BannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40BD3161C07149F00656542 /* Debug */,
+				E40BD3171C07149F00656542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40BD2DB1C07149F00656542 /* Project object */;
+}
