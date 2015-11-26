@@ -2,8 +2,7 @@ SpriteKit-Swift-iAd-Banner-Tutorial
 
 Source code on adding iAd Banner in Swift 2. Using Xcode 7.1
 
-Tutorial:
-
+Tutorial: https://www.youtube.com/watch?v=Ba4FhE9NDxk
 
 Check out our Website: http://www.mstcode.com
 
